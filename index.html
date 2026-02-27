@@ -2,44 +2,71 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>나의 개인 홈페이지</title>
+    <title>김준서 자기소개</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>나의 개인 홈페이지</h1>
+    <header class="main-header">
+        <h1>김준서 자기소개</h1>
+        <p>컴퓨터공학 전공 | 예비 개발자</p>
     </header>
 
-    <section class="card">
-        <h2>👤 자기소개</h2>
+    <!-- 프로필 카드 -->
+    <section class="profile-card">
+        <div class="profile-left">
+            <div class="avatar">HG</div>
+        </div>
+
+        <div class="profile-right">
+            <h2>김준서</h2>
+            <p class="major">컴퓨터공학 전공</p>
+
+            <p>
+                안녕하세요. 새로운 기술을 배우고 직접 구현해보는 것을 좋아하는
+                20살 대학생입니다. 문제 해결을 즐기며 꾸준히 성장하는 개발자가
+                되는 것이 목표입니다.
+            </p>
+
+            <div class="info-grid">
+                <div><strong>나이</strong><br>20살</div>
+                <div><strong>관심 분야</strong><br>인공지능</div>
+                <div><strong>취미</strong><br>산책</div>
+                <div><strong>목표</strong><br>인공지능 전문가</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="content-card">
+        <h3>About Me</h3>
         <p>
-            안녕하세요. 저는 한국기술교육대학교 컴퓨터공학과에 재학 중인 김준서입니다.
-            꾸준히 성장하는 사람이 되는 것이 목표입니다.
+            저는 어떠한 위기가 닥쳐도 최선을 다해보는것이 저의 인생관입니다.
+            앞으로 공부를 할때에 있어서 더욱더 최선을 다해볼것입니다
         </p>
     </section>
 
-    <section class="card">
-        <h2>💡 관심 분야</h2>
+    <!-- 관심 분야 -->
+    <section class="content-card">
+        <h3>관심 분야</h3>
         <ul>
-            <li>웹 개발 (HTML, CSS, JavaScript)</li>
-            <li>인공지능과 데이터 분석</li>
-            <li>모바일 앱 개발</li>
+            <li>머신러닝 (Machine Learning)</li>
+            <li>딥러닝 & 컴퓨터 비전</li>
         </ul>
     </section>
 
-    <section class="card">
-        <h2>🎯 대학생활의 목표</h2>
-        <ol>
-            <li>전공 지식 심화 학습</li>
-            <li>프로젝트 3개 이상 완성</li>
-            <li>인턴십 도전</li>
-            <li>포트폴리오 제작</li>
-        </ol>
+    <!-- 취미 -->
+    <section class="content-card">
+        <h3>산책</h3>
+        <p>
+            산책은 저의 인생에 있어 중요한 힐링 포인트입니다.
+            디지털에 절여진 현대사회를 살아가는데 
+            중간에 집앞에 있는 안양천을 걸을때면 마음이 편안해집니다
+        </p>
     </section>
 
     <footer>
-        <p>© 2026 김준서 | GitHub Pages로 제작</p>
+        © 2026 Kim Jun Seo | GitHub Pages
     </footer>
 
 </body>
